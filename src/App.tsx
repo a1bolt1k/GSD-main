@@ -1,5 +1,4 @@
 import React from 'react';
-import { FixImages } from "./FixImages";
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { HowItWorks } from './components/HowItWorks';
@@ -14,7 +13,6 @@ import { Footer } from './components/Footer';
 export default function App() {
   return (
     <div className="texture-bg min-h-screen">
-      <FixImages />
       <Header />
       <main>
         <Hero />
