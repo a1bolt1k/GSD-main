@@ -1,4 +1,5 @@
 import React from 'react';
+import skateMain from '../../images/skate_main.png'
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { ArrowRight, Sparkles } from 'lucide-react';
 
@@ -81,7 +82,7 @@ export function Hero() {
               <div className="space-y-6">
                 <div className="relative bg-gray-100 rounded-lg p-6 border-2 border-dashed border-gray-300">
                   <ImageWithFallback 
-                    src="https://images.unsplash.com/photo-1517553338287-1dde71d69461?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+                    src="skateMain"
                     alt="Skateboard deck preview"
                     className="w-full h-80 object-contain drop-shadow-xl transform hover:scale-105 transition-transform duration-300"
                   />
